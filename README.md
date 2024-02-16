@@ -69,3 +69,9 @@ import "@testing-library/jest-dom"
     "test": "jest",
   }
 ```
+
+## snapshot更新
+
+```sh
+ npm test src/components/SnapshotComponent.test.tsx -- -u
+ ```
