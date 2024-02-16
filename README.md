@@ -81,3 +81,9 @@ import "@testing-library/jest-dom"
 ```sh
 npx sb@7 init
 ```
+
+## install storybook/jest
+
+```sh
+npm i @storybook/jest @storybook/testing-library
+```
