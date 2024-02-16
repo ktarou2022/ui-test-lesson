@@ -87,3 +87,14 @@ npx sb@7 init
 ```sh
 npm i @storybook/jest @storybook/testing-library
 ```
+
+## publish chromatic
+
+* package.json (buildエラー、act()... が出たら)
+
+```json
+  "scripts": {
+    ...,
+    "build-storybook": "NODE_ENV=development npx storybook build",
+  }
+```
