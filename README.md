@@ -87,3 +87,14 @@ npx sb@7 init
 ```sh
 npm i @storybook/jest @storybook/testing-library
 ```
+
+## publish chromatic
+
+* package.json (エラー{act(...) is not supported in production builds of React}対策)
+
+```json
+  "scripts": {
+    ...,
+    "build-storybook": "NODE_ENV=development npx storybook build",
+  }
+```
