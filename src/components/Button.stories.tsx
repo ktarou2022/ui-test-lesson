@@ -3,7 +3,13 @@ import type { Meta, StoryObj } from "@storybook/react"
 
 const meta = {
   title: "Button",
-  component: Button
+  component: Button,
+  argTypes: {
+    label: {
+      options: ["Primaryボタン", "Normalボタン"],
+      control: { type: "select" }
+    }
+  }
 } as Meta<typeof Button>
 
 export default meta
