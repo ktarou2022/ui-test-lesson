@@ -75,3 +75,9 @@ import "@testing-library/jest-dom"
 ```sh
  npm test src/components/SnapshotComponent.test.tsx -- -u
  ```
+
+# setup storybook
+
+```sh
+npx sb@7 init
+```
