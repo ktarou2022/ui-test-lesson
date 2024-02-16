@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react"
 
 
 const meta = {
-  title: "Counter",
+  title: "Counter2",
   component: Counter
 } as Meta<typeof Counter>
 export default meta;

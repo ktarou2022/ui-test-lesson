@@ -90,7 +90,7 @@ npm i @storybook/jest @storybook/testing-library
 
 ## publish chromatic
 
-* package.json (buildエラー、act()... が出たら)
+* package.json (エラー{act(...) is not supported in production builds of React}対策)
 
 ```json
   "scripts": {
